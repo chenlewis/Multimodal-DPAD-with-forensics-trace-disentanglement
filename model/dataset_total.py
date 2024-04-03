@@ -124,12 +124,6 @@ class Dataset():
     def parse_fn(self, file1, file2):
         config = self.config
         imsize = config.IMAGE_SIZE
-        lm_reverse_list = np.array([17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1,
-                                    27, 26, 25, 24, 23, 22, 21, 20, 19, 18,
-                                    28, 29, 30, 31, 36, 35, 34, 33, 32,
-                                    46, 45, 44, 43, 48, 47, 40, 39, 38, 37, 42, 41,
-                                    55, 54, 53, 52, 51, 50, 49, 60, 59, 58, 57, 56, 65, 64, 63, 62, 61, 68, 67, 66],
-                                   np.int32) - 1
 
         def _parse_function(_file1, _file2):
             # live
@@ -188,12 +182,7 @@ class Dataset():
     def parse_fn_val(self, file1, file2):
         config = self.config
         imsize = config.IMAGE_SIZE
-        lm_reverse_list = np.array([17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1,
-                                    27, 26, 25, 24, 23, 22, 21, 20, 19, 18,
-                                    28, 29, 30, 31, 36, 35, 34, 33, 32,
-                                    46, 45, 44, 43, 48, 47, 40, 39, 38, 37, 42, 41,
-                                    55, 54, 53, 52, 51, 50, 49, 60, 59, 58, 57, 56, 65, 64, 63, 62, 61, 68, 67, 66],
-                                   np.int32) - 1
+
 
         def _parse_function(_file1, _file2):
             # live
