@@ -8,7 +8,7 @@ This work proposes a DPAD method based on multi-modal disentangled traces (MMDT)
 
 ## Data Availability
 
-If you need access to the dataset used in our paper, please contact us via email at [cschen@szu.edu.cn](mailto:cschen@szu.edu.cn).
+If you need access to the datasets used in our paper, please contact us via email at [cschen@szu.edu.cn](mailto:cschen@szu.edu.cn).
 
 ## Reference
 This work has been accepted by IEEE ICME2024.
